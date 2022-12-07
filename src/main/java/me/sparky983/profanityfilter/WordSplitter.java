@@ -15,7 +15,6 @@ interface WordSplitter {
     /**
      * Splits a string into a list of words.
      *
-     * @author Sparky983
      * @param message the message.
      * @return the words.
      * @throws NullPointerException if the message is {@code null}.

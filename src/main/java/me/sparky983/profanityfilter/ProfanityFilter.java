@@ -13,7 +13,6 @@ public interface ProfanityFilter {
     /**
      * Filters profanity from a string.
      *
-     * @author Sparky983
      * @param message the message.
      * @return whether the message contains profanity.
      * @throws NullPointerException if the message is {@code null}.
@@ -24,7 +23,6 @@ public interface ProfanityFilter {
     /**
      * Creates a new profanity filter.
      *
-     * @author Sparky983
      * @param profanities the profanities.
      * @return the profanity filter.
      * @throws NullPointerException if the profanities list is or contains {@code null}.

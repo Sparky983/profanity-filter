@@ -15,7 +15,6 @@ interface WordCombinations {
     /**
      * Gets a list of all possible combination of words in a string.
      *
-     * @author Sparky983
      * @param message the message.
      * @return a list of all possible combination of words in a string.
      * @throws NullPointerException if the message is {@code null}.

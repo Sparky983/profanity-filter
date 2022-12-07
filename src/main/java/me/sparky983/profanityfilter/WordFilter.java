@@ -11,7 +11,6 @@ interface WordFilter {
     /**
      * Checks whether a single word is a profanity.
      *
-     * @author Sparky983
      * @param word the word.
      * @return whether the word is a profanity.
      * @throws NullPointerException if the word is {@code null}.

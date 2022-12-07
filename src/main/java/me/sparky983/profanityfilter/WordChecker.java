@@ -11,7 +11,6 @@ interface WordChecker {
     /**
      * Checks to see if a resembles another word.
      *
-     * @author Sparky983
      * @param profanity the profanity word.
      * @param word the other word.
      * @return whether the word loosely resembles the profanity word.

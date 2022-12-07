@@ -14,7 +14,6 @@ final class ProfanityFilterImpl implements ProfanityFilter {
     /**
      * Constructs a new profanity filter with the specified word combinations and word checker.
      *
-     * @author Sparky983
      * @param wordCombinations the word combinations.
      * @param wordFilter the word checker.
      * @throws NullPointerException if the word combinations or word checker is {@code null}.

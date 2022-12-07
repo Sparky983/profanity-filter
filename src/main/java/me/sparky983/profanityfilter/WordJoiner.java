@@ -17,7 +17,6 @@ interface WordJoiner {
      * For example, if the words is {@code (["Can", "you", "friend", "me], 1)}, the output would be
      * {@code ["Can you", "you friend", "friend me"]}.
      *
-     * @author Sparky983
      * @param words the words.
      * @param joinLength the length of the words to join together.
      * @return the joined words.
