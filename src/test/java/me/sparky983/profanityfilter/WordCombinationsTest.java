@@ -52,4 +52,16 @@ class WordCombinationsTest {
 
         assertEquals(List.of("pls", "friend", "me", "plsfriend", "friendme"), combinations);
     }
+    
+    @Test
+    void testGetWordCombinationsWhenMessageHasOneWord() {
+        when(wordSplitter.split("hello"))
+                .thenReturn(List.of("hello"));
+        when(wordJoiner.join(List.of("hello"), 1))
+                .thenReturn(List.of("hello"));
+
+        List<String> combinations = wordCombinations.getWordCombinations("hello");
+
+        assertEquals(List.of("hello"), combinations);
+    }
 }

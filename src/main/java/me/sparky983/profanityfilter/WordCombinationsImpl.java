@@ -24,7 +24,7 @@ final class WordCombinationsImpl implements WordCombinations {
 
         final List<String> words = wordSplitter.split(message);
 
-        return IntStream.range(1, words.size())
+        return IntStream.range(1, words.size() + 1)
                 .mapToObj(i -> wordJoiner.join(words, i))
                 .flatMap(List::stream)
                 .toList();
