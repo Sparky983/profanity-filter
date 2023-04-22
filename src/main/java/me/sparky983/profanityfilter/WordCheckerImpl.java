@@ -12,7 +12,7 @@ import java.util.Objects;
 final class WordCheckerImpl implements WordChecker {
     @Override
     public boolean check(String profanity, String word) {
-        Objects.requireNonNull(profanity, "profanity");
+        Objects.requireNonNull(profanity, "profanity cannot be null");
         Objects.requireNonNull(word, "word cannot be null");
         return profanity.equalsIgnoreCase(word);
     }
