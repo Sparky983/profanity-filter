@@ -9,10 +9,10 @@ package me.sparky983.profanityfilter;
  */
 interface WordChecker {
     /**
-     * Checks to see if a resembles another word.
+     * Checks to see if a profanity resembles another word.
      *
-     * @param profanity the profanity word.
-     * @param word the other word.
+     * @param profanity the profanity word (e.g. {@code "hello"}.
+     * @param word the other word (e.g. {@code "h3ll0"}).
      * @return whether the word loosely resembles the profanity word.
      * @throws NullPointerException if the profanity word or the word is {@code null}.
      */
